@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AnalyticsColors, device } from "../../constants";
+import { AnalyticsColors, device } from "@constants";
 
 export const Wrapper = styled.div``;
 

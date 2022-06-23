@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { AnalyticsData } from "../../model";
+import { AnalyticsData } from "@model";
 
 type AnalyticsDataContextProviderProps = {
     children: React.ReactNode;

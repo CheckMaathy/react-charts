@@ -1,8 +1,5 @@
 /* eslint-disable no-useless-constructor */
-import {
-    HttpClient,
-    HttpStatusCode,
-} from "../../data/interfaces/http/httpClient";
+import { HttpClient, HttpStatusCode } from "@data/interfaces/http/httpClient";
 
 export class AnalyticsService {
     constructor(

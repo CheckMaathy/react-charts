@@ -16,9 +16,9 @@ describe("Header", () => {
         expect(headerAltTextImg).toBeInTheDocument();
     });
 
-    it("should render a title 'RS Analytics'", () => {
+    it("should render a title 'Charts Template'", () => {
         render(<Header />);
-        const headerText = screen.queryByText(/RS Analytics/i);
+        const headerText = screen.queryByText(/Charts Template/i);
 
         expect(headerText).toBeInTheDocument();
     });

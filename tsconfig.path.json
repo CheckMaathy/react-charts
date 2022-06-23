@@ -1,0 +1,73 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@assets": [
+                "assets"
+            ],
+            "@assets/*": [
+                "assets/*"
+            ],
+            "@pages": [
+                "pages"
+            ],
+            "@pages/*": [
+                "pages/*"
+            ],
+            "@components": [
+                "components"
+            ],
+            "@components/*": [
+                "components/*"
+            ],
+            "@routes": [
+                "routes"
+            ],
+            "@routes/*": [
+                "routes/*"
+            ],
+            "@data": [
+                "data"
+            ],
+            "@data/*": [
+                "data/*"
+            ],
+            "@constants": [
+                "constants"
+            ],
+            "@constants/*": [
+                "constants/*"
+            ],
+            "@context": [
+                "context"
+            ],
+            "@context/*": [
+                "context/*"
+            ],
+            "@model": [
+                "model"
+            ],
+            "@model/*": [
+                "model/*"
+            ],
+            "@infra": [
+                "infra"
+            ],
+            "@infra/*": [
+                "infra/*"
+            ],
+            "@hook": [
+                "hook"
+            ],
+            "@hook/*": [
+                "hook/*"
+            ],
+            "@service": [
+                "service"
+            ],
+            "@service/*": [
+                "service/*"
+            ]
+        }
+    }
+}

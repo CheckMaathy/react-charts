@@ -1,9 +1,9 @@
 import Highcharts, { TooltipFormatterContextObject } from "highcharts";
 import wordCloud from "highcharts/modules/wordcloud.js";
-import Chart from "../../../../components/Chart";
-import CustomChartTitle from "../../../../components/CustomChartTitle";
-import { AnalyticsColors } from "../../../../constants";
-import useAnalyticsData from "../../../../hook/useAnalyticsData";
+import Chart from "@components/Chart";
+import CustomChartTitle from "@components/CustomChartTitle";
+import { AnalyticsColors } from "@constants";
+import useAnalyticsData from "@hook/useAnalyticsData";
 import * as S from "./styles";
 
 wordCloud(Highcharts);

@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "dev": "craco start",
         "start": "react-scripts start",
         "server": "json-server --watch --port 5000 src/data/db.json",
         "build": "react-scripts build",
@@ -29,6 +30,7 @@
         ]
     },
     "dependencies": {
+        "@craco/craco": "^6.4.3",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
         "@testing-library/user-event": "^12.1.10",
@@ -64,6 +66,8 @@
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-react": "7.21.5",
         "eslint-plugin-react-hooks": "4",
-        "prettier": "^2.4.1"
-    }
+        "prettier": "^2.4.1",
+        "ts-jest": "^28.0.5"
+    },
+    "cracoConfig": "craco.config.js"
 }

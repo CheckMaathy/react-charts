@@ -1,5 +1,5 @@
-import Header from "../../components/Header";
-import { AnalyticsDataContextProvider } from "../../context/AnalyticsData/indext";
+import Header from "@components/Header";
+import { AnalyticsDataContextProvider } from "@context/AnalyticsData/indext";
 import * as S from "./styles";
 import * as C from "./Components";
 

@@ -1,8 +1,8 @@
-import Chart from "../../../../components/Chart";
+import Chart from "@components/Chart";
+import Eye from "@assets/eye.svg";
+import { AnalyticsColors } from "@constants";
+import useAnalyticsData from "@hook/useAnalyticsData";
 import * as S from "./styles";
-import Eye from "../../../../assets/eye.svg";
-import { AnalyticsColors } from "../../../../constants";
-import useAnalyticsData from "../../../../hook/useAnalyticsData";
 
 export const TotalAccessOnPages = () => {
     const { analyticsDataState } = useAnalyticsData();

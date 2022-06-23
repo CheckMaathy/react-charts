@@ -1,7 +1,7 @@
 import { TooltipFormatterContextObject } from "highcharts";
-import Chart from "../../../../components/Chart";
-import { AnalyticsColors } from "../../../../constants";
-import useAnalyticsData from "../../../../hook/useAnalyticsData";
+import Chart from "@components/Chart";
+import { AnalyticsColors } from "@constants";
+import useAnalyticsData from "@hook/useAnalyticsData";
 import * as S from "./styles";
 
 const PorcentageOfAccessOnPages = () => {

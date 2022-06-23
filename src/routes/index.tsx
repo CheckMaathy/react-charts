@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { BrowserRouter, Route, Redirect } from "react-router-dom";
-import AccessData from "../pages/AccessData";
+import AccessData from "@pages/AccessData";
 
 const Routes = () => (
     <BrowserRouter>

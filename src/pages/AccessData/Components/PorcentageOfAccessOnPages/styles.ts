@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AnalyticsColors } from "../../../../constants";
+import { AnalyticsColors } from "@constants";
 
 export const Wrapper = styled.div`
     grid-area: porcentageOfAccessOnPages;

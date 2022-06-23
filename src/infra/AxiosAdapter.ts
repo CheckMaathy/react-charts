@@ -3,7 +3,7 @@ import {
     HttpClient,
     HttpRequest,
     HttpResponse,
-} from "../data/interfaces/http/httpClient";
+} from "@data/interfaces/http/httpClient";
 
 export class AxiosAdapter implements HttpClient {
     async request(params: HttpRequest): Promise<HttpResponse<any>> {

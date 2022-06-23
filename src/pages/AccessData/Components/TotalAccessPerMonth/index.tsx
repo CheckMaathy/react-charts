@@ -1,8 +1,8 @@
 import { TooltipFormatterContextObject } from "highcharts";
-import Chart from "../../../../components/Chart";
-import CustomChartTitle from "../../../../components/CustomChartTitle";
-import { AnalyticsColors } from "../../../../constants";
-import useAnalyticsData from "../../../../hook/useAnalyticsData";
+import Chart from "@components/Chart";
+import CustomChartTitle from "@components/CustomChartTitle";
+import { AnalyticsColors } from "@constants";
+import useAnalyticsData from "@hook/useAnalyticsData";
 import * as S from "./styles";
 
 const TotalAccessPerMonth = () => {

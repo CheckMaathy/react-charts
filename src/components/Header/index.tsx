@@ -1,10 +1,10 @@
 import { ChangeEvent, useCallback } from "react";
+import { AnalyticsData } from "@model";
+import { AnalyticsService } from "@service/Analytics";
+import { AxiosAdapter } from "@infra/AxiosAdapter";
+import useAnalyticsData from "@hook/useAnalyticsData";
+import ExpertsClubLogo from "@assets/expets-club-logo.svg";
 import * as S from "./styles";
-import ExpertsClubLogo from "../../assets/expets-club-logo.svg";
-import { AnalyticsService } from "../../service/Analytics";
-import { AxiosAdapter } from "../../infra/AxiosAdapter";
-import { AnalyticsData } from "../../model";
-import useAnalyticsData from "../../hook/useAnalyticsData";
 
 type PresetDataProps = {
     title: string;
@@ -59,10 +59,10 @@ const Header = () => {
     return (
         <S.Wrapper>
             <S.Head>
-                <img src={ExpertsClubLogo} alt="Experts club logo" />
+                <img src={ExpertsClubLogo} alt="logo" />
             </S.Head>
             <S.Main>
-                <h5>RS Analytics</h5>
+                <h5>Charts Template</h5>
                 <span>
                     Acompanhe a quantidade de acesso gerado nas páginas da
                     rocketseat, métricas de alunos que acessaram a trilha ignite
