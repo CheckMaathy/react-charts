@@ -2,8 +2,7 @@ import { useContext } from "react";
 import AnalyticsDataContext from "../../context/AnalyticsData/indext";
 
 const useAnalyticsData = () => {
-    const context = useContext(AnalyticsDataContext);
-    return context;
+    return useContext(AnalyticsDataContext);
 };
 
 export default useAnalyticsData;
