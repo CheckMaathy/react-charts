@@ -4,10 +4,10 @@
     "private": true,
     "scripts": {
         "dev": "craco start",
-        "start": "react-scripts start",
+        "start": "craco start",
         "server": "json-server --watch --port 5000 src/data/db.json",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
+        "build": "craco build",
+        "test": "craco test",
         "format": "prettier --config .prettierrc.js src/**/*.ts{,x} --write",
         "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
     },
@@ -67,7 +67,9 @@
         "eslint-plugin-react": "7.21.5",
         "eslint-plugin-react-hooks": "4",
         "prettier": "^2.4.1",
-        "ts-jest": "^28.0.5"
+        "ts-jest": "^28.0.5",
+        "husky": "^7.0.0",
+        "lint-staged": "^12.1.2"
     },
     "cracoConfig": "craco.config.js"
 }
